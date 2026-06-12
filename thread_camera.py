@@ -6,8 +6,8 @@ import threading
 import os
 from serial_command import SerialCommander, compute_tilt_angle
 import torch
-from pyngrok import ngrok
-from stream import set_frame, start as start_stream
+# from pyngrok import ngrok
+# from stream import set_frame, start as start_stream
 
 torch.set_num_threads(4)
 torch.set_num_interop_threads(2)
